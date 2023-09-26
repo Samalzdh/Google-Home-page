@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #555;
+}
+
+body{
+    height: 100vh;
+    overflow: hidden;
+    font-family: helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    justify-content:flex-end;
+    padding: 20px 10px;
+    height: 60px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+li{
+    text-align: center;
+    padding: 14px 12px;
+}
+
+a{
+    text-decoration: none;
+}
+
+li a:hover{
+    text-decoration: underline;
+}
+
+.small-text{
+    font-size: 0.9rem;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    height: 40%;
+    padding: 10px;
+    margin-right: 10px;
+    list-style-type: none;
+    opacity: 70%;
+    color: #555;
+}
+
+/* .profil{
+    width: 30%;
+    border-radius: 50%;
+ 
+} */
+
+.connexion{
+    font-weight: 5px;
+    background: #1a73e8;
+    border: 1px solid transparent;
+    color: #fff;
+}
+
+
+.search {
+height: 60vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-start;
+}
+
+form{
+    position: relative;
+    margin-top: 20px;
+}
+
+input{
+    width: 500px;
+    height: 45px;
+    padding-left: 35px;
+    font-size: 1,2rem;
+    border-radius: 40px;
+    border: 1px solid #d3d3d3;
+    
+}
+
+input:focus{
+    outline: none;
+}
+
+input:hover{
+    box-shadow: 0 1px 3px 1px rgb(201, 201, 201, 0.5);
+}
+
+.micro{
+    width: 15px;
+    position: absolute;
+    top: 10px;
+    left: 450px;
+}
+
+.loupe{
+    width: 15px;
+    position: absolute ;
+    top: 15px;
+    left: 20px;
+}
+
+.button{
+width: 350px;
+margin: auto;
+margin-top: 30px;
+display: flex;
+justify-content: center;
+gap: 15px;
+}
+
+button{
+    border: 1px solid transparent;
+    padding: 8px 12px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+button:hover{
+    border: 1px solide #eee;
+    box-shadow: 0 1px 3px 1px rgb(201, 201, 201, 0.5);
+    cursor: pointer;
+}
+
+footer{
+    width: 100%;
+    background-color: #f2f2f2;
+    margin-top: 0%;
+}
+
+.pied{
+    border-bottom: 1px solid #DDD;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+p{
+    color: #555;
+    padding-left: 10px;
+}
+
+.feuille{
+    width: 12px;
+}
+
+.ecologie{
+    display: flex;
+
+}
